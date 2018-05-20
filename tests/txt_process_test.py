@@ -17,10 +17,16 @@ class TestTweetBreak(unittest.TestCase):
         for tweet in self.tweets_list:
             assert len(tweet) <= 140
 
+    def test_tweets_type(self):
+        for tweet in self.tweets_list:
+            self.assertEquals(type(tweet), type(""))
+        
+
     def test_uniquetweet_breaker(self):
         original_text = "Lorem ipsum dolor sit amet, duo at regione inimicus mediocrem."
         unique_tweet =  tweet_breaker(original_text, 140)
         self.assertEquals(len(unique_tweet), 1)
         add_tweet_index(unique_tweet)
         assert "(1/1)" not in unique_tweet[0]
+        self.assertEquals(type(unique_tweet[0]), type(""))
 
