@@ -3,7 +3,7 @@ import sys, os
 
 def main():
     if len(sys.argv) != 2:
-        print("You should run main by running the following command:\n\n\33[32mpython \33[33mmain.py \33[0m\33[44m\"The text you would like to send\"" )
+        print("You should run main by running the following command:\n\npython main.py \"The text you would like to send\"" )
         exit(1)
     no_variables = False
     if not os.environ.has_key('TWITTER_CONSUMER_KEY'):
