@@ -91,7 +91,7 @@ After set up the app environment variables, you are able to run the app and send
 
 ![alt text](doc/img/02.png)
 
-
+#### Authorizing the app
 This command will start the application, which will altomatically prepare the mensage and comunicate with the Twitter API using the app key/secret, but now it's time to you authorize the app to use your credentials. The app will ask you to access a twitter link, wich should be opened in the browser where you account is logged:
 
 
@@ -117,4 +117,25 @@ And you can check it in the Twitter web site(using the URL) through browser or T
 
 ![alt text](doc/img/06.png)
 
+## Running on Docker
+
+If you don't want to do lots of configuration proccess, if you have Docker installed on your machine, you are able to create a docker container to use the app.
+
+First of all, you need to build the image
+
+
+![alt text](doc/img/07.png)
+
+Then, you should start a container in the same time you configure the app key/secret
+
+![alt text](doc/img/08.png)
+
+Then, you should run the app start command and do the same as in [authorization section](#authorizing-the-app) and add the PIN where the app asks you
+
+
+![alt text](doc/img/09.png)
+
+Then finally your tweet will apear in the Twitter 
+
+![alt text](doc/img/10.png)
 
