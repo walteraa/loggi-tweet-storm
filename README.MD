@@ -55,7 +55,7 @@ writing dependency_links to twitter_storm.egg-info/dependency_links.txt
 ```
 
 
-> You can make easier manage this by running it in a container, you can see more details in the [Running on Docker](#runnin-on-docker) section
+> You can make easier manage this by running it in a container, you can see more details in the [Running on Docker](#running-on-docker) section
 
 ## Running tests
 
