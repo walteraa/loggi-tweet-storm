@@ -1,9 +1,6 @@
 from __future__ import print_function
-
-from requests_oauthlib import OAuth1Session
 import webbrowser
-import os
-import sys
+from requests_oauthlib import OAuth1Session
 
 REQUEST_TOKEN_URL = 'https://api.twitter.com/oauth/request_token'
 ACCESS_TOKEN_URL = 'https://api.twitter.com/oauth/access_token'
@@ -48,4 +45,4 @@ def get_access_token(consumer_key, consumer_secret):
 
     print("Done!!")
 
-    return {'consumer_key':consumer_key, 'consumer_secret':consumer_secret,  'token_key': auth_token, 'token_secret': auth_secret }
+    return {'consumer_key':consumer_key, 'consumer_secret':consumer_secret,  'token_key': auth_token, 'token_secret': auth_secret}
