@@ -1,0 +1,7 @@
+[
+  "tests/txt_process_test.py::TestTweetBreak::test_length", 
+  "tests/txt_process_test.py::TestTweetBreak::test_size_of_tweet", 
+  "tests/txt_process_test.py::TestTweetBreak::test_tweet_index", 
+  "tests/txt_process_test.py::TestTweetBreak::test_tweets_type", 
+  "tests/txt_process_test.py::TestTweetBreak::test_uniquetweet_breaker"
+]
